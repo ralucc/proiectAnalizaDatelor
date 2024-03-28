@@ -1,9 +1,7 @@
 
 # seminar 1 ---------------------------------------------------------------
 
-#setwd("T:\\adsemiar")
-
-setwd("C:\\Users\\Raluca\\OneDrive\\Desktop\\facultate\\AD\\proiect")
+setwd("T:\\adsemiar")
 X <- read.table(file="AD_final.txt",header=T,sep="\t",dec=",",row.names=1)
 #X <- read.csv("ADfinal.csv", header = T, sep = ",", dec =".")
 summary(X)
